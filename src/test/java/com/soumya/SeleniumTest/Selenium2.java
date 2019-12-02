@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
  
-public class SimpleSelTest {
+public class Selenium2 {
 	WebDriver driver;
 	
 	@Test
