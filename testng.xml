@@ -4,6 +4,8 @@
 	<test name= "SampleTest">
 		<classes>
 			<class name="com.soumya.SeleniumTest.SimpleSelTest"/>
+			<class name="com.soumya.SeleniumTest.Selenium2"/>
+			
 		</classes>
 	</test>
 	
