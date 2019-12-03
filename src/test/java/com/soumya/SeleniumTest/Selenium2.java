@@ -20,7 +20,7 @@ public class Selenium2 {
 	public void TestMethod() {
 		 //Launch firefox browser 
 		String location=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		options.addArguments("--disable-gpu");
