@@ -20,7 +20,7 @@ public class SimpleSelTest {
 	public void TestMethod() {
 		 //Launch firefox browser 
 		String location=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", "C:\Users\Administrator\Downloads\chromedriver_win32\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		options.addArguments("--disable-gpu");
